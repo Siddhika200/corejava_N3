@@ -10,7 +10,7 @@ public class EmployeeDao {
 	{
 		String url="jdbc:mysql://localhost:3306/n3";
 		String user="root";
-		String password="12345678";
+		String password="root";
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");//com.mysql.cj.conf.ConnectionUrl
 		}
